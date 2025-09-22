@@ -1,3 +1,17 @@
+// Toggle mobile menu
+const toggleBtn = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+toggleBtn.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+// Toggle mobile navigation menu
+const toggleBtn = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+toggleBtn.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
 function multiplyNumbers(q, b) {
     return a * b;
 }
